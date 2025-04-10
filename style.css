@@ -1,0 +1,53 @@
+body {
+    background: black;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background: palevioletred;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 500px;
+    width: 90%;     
+  }
+  
+  h1 {
+    margin-bottom: 1rem;
+    color: white;
+    font-style: italic;
+  }
+  
+  #quote {
+    font-size: 1.3rem;
+    color: bisque; 
+    margin: 1rem 0;
+    font-style:inherit;
+  }
+  
+  #author {
+    font-style: oblique;
+    color: whitesmoke;
+    margin-bottom: 1.5rem;
+  }
+  
+  button {
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    background: maroon;
+    color: whitesmoke;
+    border: groove;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: black;
+  }
